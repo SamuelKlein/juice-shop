@@ -8,11 +8,11 @@ RUN rm -rf frontend/node_modules
 FROM node:10-alpine
 ARG BUILD_DATE
 ARG VCS_REF
-LABEL maintainer="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
-    org.opencontainers.image.title="OWASP Juice Shop" \
-    org.opencontainers.image.description="Probably the most modern and sophisticated insecure web application" \
-    org.opencontainers.image.authors="Bjoern Kimminich <bjoern.kimminich@owasp.org>" \
-    org.opencontainers.image.vendor="Open Web Application Security Project" \
+LABEL maintainer="Everton Melo <contato@cecyber.org>" \
+    org.opencontainers.image.title="Arena" \
+    org.opencontainers.image.description="Plataforma Arena" \
+    org.opencontainers.image.authors="Everton Melo <conta@cecyber.org>" \
+    org.opencontainers.image.vendor="Plataforma Arena" \
     org.opencontainers.image.documentation="https://help.owasp-juice.shop" \
     org.opencontainers.image.licenses="MIT" \
     org.opencontainers.image.version="10.3.1" \
